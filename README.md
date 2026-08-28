@@ -1,34 +1,20 @@
-<p align="center">
-  <img src="images/ML Repo Banner 3.png"
-       alt="Machine Learning From Scratch"
-       width="100%">
-</p>
-
-<!-- =========================================================
-     MACHINE LEARNING FROM SCRATCH
-     ========================================================= -->
-
 <div align="center">
 
-# 🧠 Machine Learning From Scratch
+# 🤖 Machine Learning
 
-### Learn the intuition. Understand the mathematics. Implement the algorithms. Solve real-world problems.
+### From Fundamentals to Practical Implementation
 
-**A structured journey from Machine Learning fundamentals to advanced algorithms through theory, mathematics, visualization, Python implementation, and practical projects.**
+A structured Machine Learning knowledge repository covering **core concepts, intuition, mathematical understanding, hands-on implementations, model evaluation, and practical use cases**.
 
-<br>
-
-[![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/)
-[![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-F7931E?logo=scikitlearn&logoColor=white)](https://scikit-learn.org/)
-[![GitHub](https://img.shields.io/badge/GitHub-Learning_Repository-181717?logo=github)](https://github.com/Neha609/Machine-Learning-from-Scratch)
-![Learning](https://img.shields.io/badge/Learning-Beginner_to_Advanced-2ea44f)
+Designed for **structured learning, quick revision, interview preparation, and practical application**.
 
 <br>
 
-**Theory** • **Mathematics** • **Python** • **Visualization** • **Projects** • **Interview Preparation**
-
-### ⭐ Learn Today • Build Tomorrow • Impact Forever
+[![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?logo=scikitlearn&logoColor=white)](https://scikit-learn.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white)](https://jupyter.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-purple?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-blue?logo=numpy&logoColor=white)](https://numpy.org/)
 
 </div>
 
@@ -36,475 +22,211 @@
 
 ## 📌 About This Repository
 
-**Machine Learning From Scratch** is a continuously evolving learning repository created to develop a strong understanding of Machine Learning — not just how to call an algorithm using a library, but **why the algorithm works, how it works internally, when to use it, and how to evaluate it correctly.**
+This repository is my structured **Machine Learning knowledge base**, created to bring together the concepts and practical implementations required to build a strong understanding of Machine Learning.
 
-The repository combines:
+Rather than focusing only on algorithms, the repository follows the complete ML learning journey:
 
-- 🧠 **Intuitive explanations** — understand algorithms in simple language
-- 🧮 **Mathematical foundations** — learn the mathematics behind the models
-- 💻 **Python implementations** — practical Jupyter Notebook examples
-- 📊 **Visualizations** — understand model behaviour visually
-- 🏢 **Real-world use cases** — connect algorithms with business problems
-- ⚙️ **Hyperparameter understanding** — learn what actually controls the model
-- 📈 **Model evaluation** — select the right metrics for the problem
-- 🎯 **Interview preparation** — revise concepts from an interview perspective
-- 🚀 **End-to-end projects** — move from raw data to business insights
+**Understand the Problem → Prepare the Data → Explore & Engineer Features → Select a Model → Train → Evaluate → Tune → Apply**
 
-> **The objective is not to memorize Machine Learning algorithms.  
-> The objective is to understand them deeply enough to explain, implement, evaluate, and apply them.**
+The content is organized so that it can be useful for:
+
+- 📖 Learning Machine Learning concepts systematically
+- 🧮 Understanding the intuition and mathematics behind algorithms
+- 💻 Practicing ML through concise Jupyter Notebook implementations
+- 📊 Learning model evaluation and optimization techniques
+- 🌍 Connecting algorithms with practical use cases
+- ⚡ Quickly revising concepts and interview topics
 
 ---
 
-# 🗺️ Machine Learning Learning Roadmap
+# 🧭 Machine Learning Learning Path
 
 ```text
                          MACHINE LEARNING
                                 │
                                 ▼
-                    ┌───────────────────────┐
-                    │     Fundamentals      │
-                    └───────────┬───────────┘
-                                │
-             ┌──────────────────┼──────────────────┐
-             ▼                  ▼                  ▼
-           Python          Statistics       Mathematics
-             │                  │                  │
-             └──────────────────┼──────────────────┘
-                                ▼
-                    Data Preprocessing
+                      01. ML Fundamentals
                                 │
                                 ▼
-                   Exploratory Data Analysis
+                      02. Data Preprocessing
                                 │
                                 ▼
-                     Feature Engineering
+                 03. Exploratory Data Analysis
                                 │
-              ┌─────────────────┴─────────────────┐
-              ▼                                   ▼
-      Supervised Learning                 Unsupervised Learning
-              │                                   │
-      ┌───────┴────────┐                 ┌────────┴────────┐
-      ▼                ▼                 ▼                 ▼
-  Regression      Classification      Clustering          PCA
-      │                │
-      └───────┬────────┘
-              ▼
-       Ensemble Learning
-              │
-       ┌──────┼──────┐
-       ▼      ▼      ▼
-    Bagging Boosting Stacking
-              │
-              ▼
-       Model Evaluation
-              │
-              ▼
-    Hyperparameter Tuning
-              │
-              ▼
-      End-to-End Projects
-              │
-              ▼
-        🚀 Deployment
+                                ▼
+                     04. Feature Engineering
+                                │
+                                ▼
+                     05. Supervised Learning
+                          ┌─────┴─────┐
+                          ▼           ▼
+                     Regression   Classification
+                          │           │
+                          └─────┬─────┘
+                                ▼
+                    06. Unsupervised Learning
+                                │
+                                ▼
+                      07. Ensemble Learning
+                                │
+                                ▼
+                       08. Model Evaluation
+                                │
+                                ▼
+                  09. Hyperparameter Tuning
+                                │
+                                ▼
+                     10. Practical Use Cases
 ```
 
 ---
 
-# 📚 What You'll Learn
+# 📚 Repository Contents
 
-## 01. 🐍 Python for Machine Learning
+## 01 · 🧠 ML Fundamentals
 
-- NumPy
-- Pandas
-- Matplotlib
-- Seaborn
-- Data Manipulation
-- Functions
-- Object-Oriented Programming
-- Working with datasets
+📂 **[Explore ML Fundamentals →](./01_ML_Fundamentals/)**
 
----
+Build the foundation required to understand Machine Learning before moving into individual algorithms.
 
-## 02. 📊 Statistics
+**Topics include:**
 
-- Mean, Median & Mode
-- Variance & Standard Deviation
-- Probability Distributions
-- Normal Distribution
-- Sampling
-- Central Limit Theorem
-- Confidence Intervals
-- Hypothesis Testing
-- Correlation
-- Covariance
+`Machine Learning Basics` • `Types of ML` • `ML Terminology` • `Training vs Testing` • `Bias & Variance` • `Overfitting & Underfitting` • `ML Workflow`
 
 ---
 
-## 03. 🎲 Probability
+## 02 · 🧹 Data Preprocessing
 
-- Probability Fundamentals
-- Conditional Probability
-- Bayes' Theorem
-- Random Variables
-- Probability Distributions
-- Joint Probability
-- Expected Value
+📂 **[Explore Data Preprocessing →](./02_Data_Preprocessing/)**
 
----
+Learn how raw data is cleaned and transformed into a format suitable for Machine Learning models.
 
-## 04. 🧮 Mathematics for Machine Learning
+**Topics include:**
 
-- Linear Algebra
-- Vectors
-- Matrices
-- Matrix Operations
-- Calculus Fundamentals
-- Derivatives
-- Partial Derivatives
-- Gradient Descent
-- Optimization Fundamentals
+`Missing Values` • `Duplicate Data` • `Categorical Encoding` • `Feature Scaling` • `Outlier Handling` • `Data Transformation` • `Train-Test Split`
 
 ---
 
-# 🧹 Data Preparation
+## 03 · 🔍 Exploratory Data Analysis
 
-## 05. Data Preprocessing
+📂 **[Explore EDA →](./03_Exploratory_Data_Analysis/)**
 
-Learn how raw data is transformed into model-ready data.
+Understand datasets before modeling through statistical analysis and visualization.
 
-```text
-Raw Data
-   │
-   ▼
-Missing Values
-   │
-   ▼
-Duplicates
-   │
-   ▼
-Outliers
-   │
-   ▼
-Categorical Encoding
-   │
-   ▼
-Feature Scaling
-   │
-   ▼
-Train/Test Split
-   │
-   ▼
-Model Ready Data
-```
+**Topics include:**
 
-Topics include:
-
-- Missing Value Treatment
-- Duplicate Handling
-- Outlier Detection
-- Label Encoding
-- One-Hot Encoding
-- Standardization
-- Normalization
-- Train-Test Split
-- Data Leakage Prevention
+`Data Profiling` • `Univariate Analysis` • `Bivariate Analysis` • `Multivariate Analysis` • `Correlation Analysis` • `Distribution Analysis` • `Visualization`
 
 ---
 
-## 06. 🔍 Exploratory Data Analysis
+## 04 · 🛠️ Feature Engineering
 
-- Univariate Analysis
-- Bivariate Analysis
-- Multivariate Analysis
-- Histograms
-- Boxplots
-- Scatterplots
-- Correlation Analysis
-- Distribution Analysis
-- Business Insight Generation
+📂 **[Explore Feature Engineering →](./04_Feature_Engineering/)**
+
+Learn how meaningful features are created, transformed, and selected to improve model performance.
+
+**Topics include:**
+
+`Feature Creation` • `Feature Transformation` • `Feature Selection` • `Feature Scaling` • `Handling Skewness` • `Multicollinearity` • `Dimensionality Considerations`
 
 ---
 
-## 07. 🛠️ Feature Engineering
+## 05 · 🎯 Supervised Learning
 
-- Feature Creation
-- Feature Transformation
-- Feature Selection
-- Handling Skewness
-- Binning
-- Interaction Features
-- Multicollinearity
-- Dimensionality Reduction
+📂 **[Explore Supervised Learning →](./05_Supervised_Learning/)**
 
----
-
-# 🤖 Machine Learning Algorithms
-
-## 08. Supervised Learning
+Learn algorithms that use labeled historical data to predict continuous values or classify observations.
 
 ### 📈 Regression
 
-| Algorithm | Theory | Implementation | Status |
-|---|:---:|:---:|:---:|
-| Linear Regression | 📖 | 💻 | 🚧 |
-| Multiple Linear Regression | 📖 | 💻 | 🚧 |
-| Polynomial Regression | 📖 | 💻 | 🚧 |
-| Ridge Regression | 📖 | 💻 | 🚧 |
-| Lasso Regression | 📖 | 💻 | 🚧 |
-| Elastic Net | 📖 | 💻 | 🚧 |
+📂 **[Explore Regression →](./05_Supervised_Learning/01_Regression/)**
 
-### 🎯 Classification
+`Linear Regression` • `Multiple Linear Regression` • `Polynomial Regression` • `Ridge` • `Lasso` • `Elastic Net`
 
-| Algorithm | Theory | Implementation | Status |
-|---|:---:|:---:|:---:|
-| Logistic Regression | 📖 | 💻 | 🚧 |
-| K-Nearest Neighbors | 📖 | 💻 | 🚧 |
-| Naive Bayes | 📖 | 💻 | 🚧 |
-| Support Vector Machine | 📖 | 💻 | 🚧 |
-| Decision Tree | 📖 | 💻 | 🚧 |
-| Random Forest | 📖 | 💻 | 🚧 |
+### 🏷️ Classification
 
-> 💡 **Status legend:** ✅ Completed • 🚧 In Progress • 📌 Planned
+📂 **[Explore Classification →](./05_Supervised_Learning/02_Classification/)**
+
+`Logistic Regression` • `Decision Tree` • `K-Nearest Neighbors` • `Naive Bayes` • `Support Vector Machine`
 
 ---
 
-# 🌲 Ensemble Learning
+## 06 · 🔎 Unsupervised Learning
 
-Instead of relying on a single model, ensemble learning combines multiple models to produce stronger predictions.
+📂 **[Explore Unsupervised Learning →](./06_Unsupervised_Learning/)**
 
-```text
-                    ENSEMBLE LEARNING
-                           │
-           ┌───────────────┼───────────────┐
-           ▼               ▼               ▼
-        BAGGING         BOOSTING         STACKING
-           │               │               │
-     Parallel Models   Sequential       Different
-           │             Models          Models
-           ▼               ▼               ▼
-    Reduce Variance    Reduce Bias     Meta Learner
-           │               │               │
-           ▼               ▼               ▼
-    Random Forest     Gradient Boost    Stacking
-```
+Learn how Machine Learning discovers patterns and structures in data without predefined target labels.
 
-Topics:
+### 🧩 Clustering
 
-- Bagging
-- Bootstrap Sampling
-- Out-of-Bag Evaluation
-- Random Forest
-- AdaBoost
-- Gradient Boosting
-- XGBoost
-- LightGBM
-- CatBoost
-- Stacking
-- Voting Classifiers
+`K-Means` • `Hierarchical Clustering` • `DBSCAN`
+
+### 📉 Dimensionality Reduction
+
+`PCA` • `Feature Reduction` • `Variance Preservation`
 
 ---
 
-# 🔎 Unsupervised Learning
+## 07 · 🌲 Ensemble Learning
 
-### Clustering
+📂 **[Explore Ensemble Learning →](./07_Ensemble_Learning/)**
 
-- K-Means
-- Hierarchical Clustering
-- DBSCAN
+Understand how multiple models can be combined to create more accurate and robust predictions.
 
-### Dimensionality Reduction
+**Topics include:**
 
-- Principal Component Analysis (PCA)
-- Feature Compression
-- Visualization of High-Dimensional Data
+`Bagging` • `Random Forest` • `AdaBoost` • `Gradient Boosting` • `XGBoost` • `Voting` • `Stacking`
 
 ---
 
-# 📏 Model Evaluation
+## 08 · 📊 Model Evaluation
 
-Building a model is only half the job.
+📂 **[Explore Model Evaluation →](./08_Model_Evaluation/)**
 
-A good Machine Learning Engineer must understand **whether the model is actually good.**
+Learn how to determine whether a Machine Learning model is actually performing well.
 
-### Classification Metrics
+### Regression Evaluation
 
-```text
-Confusion Matrix
-      │
-      ├── Accuracy
-      ├── Precision
-      ├── Recall
-      ├── Specificity
-      └── F1 Score
-```
+`MAE` • `MSE` • `RMSE` • `R²` • `Adjusted R²`
 
-Additional topics:
+### Classification Evaluation
 
-- ROC Curve
-- ROC-AUC
-- Precision-Recall Curve
-- PR-AUC
-- Log Loss
-- Classification Threshold
-- Cross Validation
-- Bias vs Variance
+`Accuracy` • `Precision` • `Recall` • `F1 Score` • `Confusion Matrix` • `ROC-AUC`
 
-### Regression Metrics
+### Validation
 
-- MAE
-- MSE
-- RMSE
-- R²
-- Adjusted R²
+`Train-Test Split` • `Cross-Validation` • `Stratified Cross-Validation`
 
 ---
 
-# ⚙️ Hyperparameter Tuning
+## 09 · ⚙️ Hyperparameter Tuning
 
-Learn how to systematically improve model performance.
+📂 **[Explore Hyperparameter Tuning →](./09_Hyperparameter_Tuning/)**
 
-```text
-Baseline Model
-      │
-      ▼
-Cross Validation
-      │
-      ▼
-Hyperparameter Search
-      │
-      ├── GridSearchCV
-      │
-      └── RandomizedSearchCV
-      │
-      ▼
-Best Parameters
-      │
-      ▼
-Final Model
-```
+Learn how model configurations are systematically optimized to improve generalization and performance.
+
+**Topics include:**
+
+`Hyperparameters` • `Grid Search` • `Randomized Search` • `Cross-Validation` • `Model Selection`
 
 ---
 
-# 🧪 Standard Notebook Structure
+## 10 · 🌍 Practical Use Cases
 
-To make learning and revision easier, notebooks follow a consistent structure:
+📂 **[Explore Practical Use Cases →](./10_Practical_Use_Cases/)**
 
-```text
-1. Business Problem
-        ↓
-2. Algorithm Intuition
-        ↓
-3. Mathematical Foundation
-        ↓
-4. Dataset Understanding
-        ↓
-5. Data Preprocessing
-        ↓
-6. Model Implementation
-        ↓
-7. Model Training
-        ↓
-8. Prediction
-        ↓
-9. Model Evaluation
-        ↓
-10. Hyperparameter Tuning
-        ↓
-11. Visualization
-        ↓
-12. Business Interpretation
-        ↓
-13. Advantages & Limitations
-        ↓
-14. Interview Questions
-```
+Apply Machine Learning concepts to realistic problems and understand how individual techniques come together in a complete modeling workflow.
 
----
+Examples include:
 
-# 🏢 Real-World Use Cases
-
-Algorithms are connected to practical business problems wherever possible.
-
-| Business Problem | ML Approach |
+| Use Case | ML Problem |
 |---|---|
-| 🏦 Loan Default Prediction | Classification |
-| 👥 Employee Attrition | Classification |
-| 💳 Fraud Detection | Anomaly Detection / Classification |
-| 🛒 Customer Segmentation | Clustering |
-| 📦 Demand Forecasting | Regression / Time Series |
-| 🏠 House Price Prediction | Regression |
-| 📱 Customer Churn | Classification |
-| 🎯 Marketing Response | Classification |
-| 💰 Credit Risk | Ensemble Learning |
-| 📊 Sales Forecasting | Regression / Time Series |
-
----
-
-# 🚀 End-to-End Projects
-
-The repository will progressively include complete projects covering:
-
-```text
-Business Problem
-       ↓
-Data Collection
-       ↓
-EDA
-       ↓
-Data Preprocessing
-       ↓
-Feature Engineering
-       ↓
-Model Selection
-       ↓
-Model Training
-       ↓
-Model Evaluation
-       ↓
-Hyperparameter Tuning
-       ↓
-Model Interpretation
-       ↓
-Business Recommendations
-       ↓
-Deployment
-```
-
-### Planned Projects
-
-- 🏦 Credit Risk Prediction
-- 👥 Employee Attrition Prediction
-- 📱 Customer Churn Prediction
-- 💳 Fraud Detection
-- 🏠 House Price Prediction
-- 🛍️ Customer Segmentation
-- 📦 Demand Forecasting
-
----
-
-# 🎯 Interview Preparation
-
-This repository is also designed for quick technical revision.
-
-For important algorithms, the goal is to answer questions such as:
-
-> **What problem does this algorithm solve?**
-
-> **How does it work internally?**
-
-> **What mathematics does it use?**
-
-> **What assumptions does it make?**
-
-> **What are its important hyperparameters?**
-
-> **How do you evaluate it?**
-
-> **What causes it to overfit or underfit?**
-
-> **When would you choose it over another algorithm?**
-
-> **How would you explain its prediction to a business stakeholder?**
+| 🏠 Housing Price Prediction | Regression |
+| 👩‍💼 Candidate Hiring Prediction | Classification |
+| 💳 Credit Default Prediction | Classification |
+| 🛡️ Phishing Detection | Classification |
+| 🌸 Iris Flower Classification | Multiclass Classification |
+| 🎬 MovieLens Data Analysis | Data Analysis / Recommendation Foundations |
 
 ---
 
@@ -514,243 +236,231 @@ For important algorithms, the goal is to answer questions such as:
 Machine-Learning-from-Scratch/
 │
 ├── README.md
-├── LICENSE
-├── requirements.txt
-├── .gitignore
 │
+├── 01_ML_Fundamentals/
+│   └── README.md
+│
+├── 02_Data_Preprocessing/
+│   └── README.md
+│
+├── 03_Exploratory_Data_Analysis/
+│   └── README.md
+│
+├── 04_Feature_Engineering/
+│   └── README.md
+│
+├── 05_Supervised_Learning/
+│   ├── README.md
+│   │
+│   ├── 01_Regression/
+│   │   ├── README.md
+│   │   └── *.ipynb
+│   │
+│   └── 02_Classification/
+│       ├── README.md
+│       └── *.ipynb
+│
+├── 06_Unsupervised_Learning/
+│   ├── README.md
+│   ├── 01_Clustering/
+│   └── 02_Dimensionality_Reduction/
+│
+├── 07_Ensemble_Learning/
+│   ├── README.md
+│   └── *.ipynb
+│
+├── 08_Model_Evaluation/
+│   ├── README.md
+│   └── *.ipynb
+│
+├── 09_Hyperparameter_Tuning/
+│   ├── README.md
+│   └── *.ipynb
+│
+├── 10_Practical_Use_Cases/
+│   ├── README.md
+│   ├── Housing_Price_Prediction/
+│   ├── Candidate_Hiring_Prediction/
+│   ├── Credit_Default_Prediction/
+│   ├── Phishing_Detection/
+│   ├── Iris_Classification/
+│   └── MovieLens_Analysis/
+│
+├── datasets/
 ├── assets/
-│   ├── banner/
-│   ├── diagrams/
 │   └── images/
 │
-├── 01_Python/
-├── 02_Statistics/
-├── 03_Probability/
-├── 04_Mathematics/
-├── 05_Data_Preprocessing/
-├── 06_Exploratory_Data_Analysis/
-├── 07_Feature_Engineering/
-│
-├── 08_Supervised_Learning/
-│   ├── Regression/
-│   │   ├── Linear_Regression/
-│   │   ├── Polynomial_Regression/
-│   │   ├── Ridge_Regression/
-│   │   └── Lasso_Regression/
-│   │
-│   └── Classification/
-│       ├── Logistic_Regression/
-│       ├── KNN/
-│       ├── Naive_Bayes/
-│       ├── SVM/
-│       └── Decision_Tree/
-│
-├── 09_Unsupervised_Learning/
-├── 10_Ensemble_Learning/
-├── 11_Model_Evaluation/
-├── 12_Hyperparameter_Tuning/
-├── 13_End_to_End_Projects/
-│
-├── Interview_Preparation/
-└── docs/
+├── requirements.txt
+└── LICENSE
 ```
 
 ---
 
-# 💻 How to Use This Repository
+# 📖 How the Repository Is Designed
 
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/Neha609/Machine-Learning-from-Scratch.git
-```
-
-### 2. Move into the repository
-
-```bash
-cd Machine-Learning-from-Scratch
-```
-
-### 3. Create a virtual environment
-
-```bash
-python -m venv venv
-```
-
-### 4. Activate it
-
-**Windows**
-
-```bash
-venv\Scripts\activate
-```
-
-**macOS / Linux**
-
-```bash
-source venv/bin/activate
-```
-
-### 5. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 6. Start Jupyter Notebook
-
-```bash
-jupyter notebook
-```
-
-Then select the topic you want to study and start experimenting. 🚀
-
----
-
-# 🧰 Technology Stack
-
-| Technology | Purpose |
-|---|---|
-| 🐍 Python | Programming |
-| 📓 Jupyter Notebook | Interactive experimentation |
-| 🔢 NumPy | Numerical computing |
-| 🐼 Pandas | Data manipulation |
-| 📊 Matplotlib | Visualization |
-| 📈 Seaborn | Statistical visualization |
-| 🤖 Scikit-learn | Machine Learning |
-| ⚡ XGBoost | Gradient Boosting |
-| 💡 LightGBM | High-performance boosting |
-| 🐱 CatBoost | Categorical boosting |
-| 🔧 Git | Version control |
-| 🐙 GitHub | Collaboration & documentation |
-
----
-
-# 🌱 Repository Philosophy
+The repository follows a simple three-level learning structure:
 
 ```text
-Learn
-  ↓
-Understand
-  ↓
-Implement
-  ↓
-Experiment
-  ↓
-Evaluate
-  ↓
-Explain
-  ↓
-Apply
-  ↓
-Improve
+                    ROOT README
+                         │
+                         ▼
+                🗺️ LEARNING MAP
+              What should I learn?
+                         │
+                         ▼
+                  FOLDER README
+                         │
+                         ▼
+               📖 CONCEPT + REVISION
+          What is it? How does it work?
+          When and why should I use it?
+                         │
+                         ▼
+                 JUPYTER NOTEBOOK
+                         │
+                         ▼
+                💻 IMPLEMENTATION
+          How do I implement and evaluate it?
+                         │
+                         ▼
+                PRACTICAL USE CASE
+                         │
+                         ▼
+                🌍 APPLICATION
+           Where is it used in practice?
 ```
 
-**Machine Learning is not about memorizing `model.fit()` and `model.predict()`.**
+---
 
-The real learning happens when we understand:
+## 📑 What You'll Find in Each Topic README
 
-**Why did the model make this prediction?**
+Each topic README is designed for **concept understanding and quick revision**.
 
-**Why did one algorithm outperform another?**
+Where applicable, it covers:
 
-**What happens when a hyperparameter changes?**
+- 📌 **What is it?**
+- 💡 **Intuition**
+- 🧮 **Key Mathematics**
+- ⚙️ **How it Works**
+- 🎯 **When to Use It**
+- 🚫 **When Not to Use It**
+- ⚖️ **Advantages & Limitations**
+- 🔧 **Important Parameters**
+- 📊 **Evaluation Approach**
+- 🌍 **Real-World Applications**
+- ⚡ **Quick Revision / Interview Notes**
+- 💻 **Links to Practical Notebooks**
 
-**Which metric actually matters for the business problem?**
+This keeps the root README concise while allowing each topic to be explained independently.
 
-**How would this model behave in production?**
+---
+
+## 💻 What You'll Find in the Notebooks
+
+Jupyter Notebooks focus primarily on **hands-on implementation** rather than repeating long theoretical explanations.
+
+A typical notebook follows:
+
+```text
+Problem / Use Case
+       ↓
+Dataset Understanding
+       ↓
+Data Preparation
+       ↓
+Model Implementation
+       ↓
+Training
+       ↓
+Prediction
+       ↓
+Evaluation
+       ↓
+Result Interpretation
+       ↓
+Key Takeaways
+```
+
+Code includes inline comments wherever useful so the notebooks remain easy to understand and revisit.
+
+---
+
+# 🛠️ Technology Stack
+
+### Programming & Data
+
+`Python` • `Pandas` • `NumPy`
+
+### Machine Learning
+
+`Scikit-learn`
+
+### Visualization
+
+`Matplotlib`
+
+### Development Environment
+
+`Jupyter Notebook` • `VS Code` • `Git` • `GitHub`
+
+---
+
+# 🚀 How to Use This Repository
+
+If you're learning Machine Learning from the beginning, follow the numbered folders sequentially:
+
+**01 → 02 → 03 → 04 → 05 → 06 → 07 → 08 → 09 → 10**
+
+If you already understand the fundamentals, jump directly to the topic you want to revise.
+
+For example:
+
+> Need to revise **Random Forest**?  
+> Go to `07_Ensemble_Learning` → understand the concept from the README → open the corresponding notebook for implementation.
+
+> Need to revise **Linear Regression**?  
+> Go to `05_Supervised_Learning/01_Regression` → review the concept → open `Linear_Regression.ipynb`.
+
+> Want to understand how ML concepts connect in practice?  
+> Explore `10_Practical_Use_Cases`.
+
+---
+
+# 🔄 Repository Status
+
+> 🚧 **This repository is actively evolving.**
+
+Existing notebooks are being reorganized into the structured learning path above, while additional concepts, implementations, and practical examples will continue to be added.
+
+The objective is not to create the largest collection of notebooks, but to build a **clear, practical, and revision-friendly Machine Learning knowledge base**.
 
 ---
 
 # 🤝 Contributions
 
-Contributions, suggestions, corrections, and improvements are welcome.
+Suggestions, corrections, and improvements are welcome.
 
-You can contribute by:
-
-1. Forking the repository
-2. Creating a new branch
-3. Making your changes
-4. Testing your implementation
-5. Creating a Pull Request
-
-Useful contributions include:
-
-- Fixing errors or typos
-- Improving explanations
-- Adding visualizations
-- Adding datasets
-- Adding interview questions
-- Improving existing notebooks
-- Suggesting new algorithms
-- Adding real-world examples
+If you find an issue or have an idea that could make the learning material more useful, feel free to open an **Issue** or submit a **Pull Request**.
 
 ---
 
-# 🐞 Found an Issue?
+# 🔗 Connect With Me
 
-If you find:
-
-- Incorrect code
-- Mathematical errors
-- Broken notebooks
-- Broken links
-- Documentation problems
-- Improvement opportunities
-
-please create a **GitHub Issue**.
-
-Constructive feedback helps improve this repository for everyone.
-
----
-
-# ⭐ Support This Repository
-
-If this repository helps you learn or revise Machine Learning:
-
-### ⭐ Star the repository
-
-It helps other learners discover the project and motivates continued development.
-
-You can also:
-
-**🍴 Fork it** — experiment with the notebooks yourself.
-
-**👀 Watch it** — receive updates when new material is added.
-
-**🔗 Share it** — help another learner discover the repository.
-
----
-
-# 👩‍💻 Created & Maintained By
-
-## Neha Kumari
-
-Building a deeper understanding of **Machine Learning, Data Science, and Artificial Intelligence** through continuous learning and practical implementation.
-
-🌐 **GitHub Repository**  
-https://github.com/Neha609/Machine-Learning-from-Scratch
-
-💼 **LinkedIn**  
-https://www.linkedin.com/in/neha-kumari-766124120/
-
-🌍 **GitHub Pages**  
-https://neha609.github.io/Machine-Learning-from-Scratch/
+<p align="center">
+  <a href="https://www.linkedin.com/in/neha-kumari-766124120">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin">
+  </a>
+  <a href="https://medium.com/@neha49712">
+    <img src="https://img.shields.io/badge/Medium-Follow-black?style=for-the-badge&logo=medium">
+  </a>
+</p>
 
 ---
 
 <div align="center">
 
-## 🌟 Small Steps. Consistent Effort. Big Impact.
+### 📖 Learn the concept • 💻 Implement it • 📊 Evaluate it • 🌍 Apply it
 
-### Learn Today • Build Tomorrow • Impact Forever
-
-<br>
-
-**If you find this repository useful, consider giving it a ⭐**
-
-<br>
-
-Made with ❤️ for Machine Learning enthusiasts.
+⭐ If you find this repository useful, consider starring it so others can discover it too.
 
 </div>
